@@ -13,6 +13,37 @@ export type Station = {
 
 export const stations: Station[] = [
   {
+    id: "cbeebies-radio",
+    name: "CBeebies Radio",
+    tagline: "BBC Children's radio for under 6s - songs, stories, and learning",
+    country: "United Kingdom",
+    category: "Kids",
+    streamUrl: "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_cbeebies",
+    streamType: "audio",
+    accentColor: "from-pink-500 to-rose-500"
+  },
+  {
+    id: "abc-kids-listen",
+    name: "ABC KIDS Listen",
+    tagline: "Australian ABC Children's Radio - stories, music, and educational fun",
+    country: "Australia",
+    category: "Kids",
+    streamUrl: "https://listen.abc.net.au/abc-kids-listen",
+    streamType: "audio",
+    accentColor: "from-sky-500 to-cyan-500"
+  },
+  {
+    id: "siriusxm-kids-place-live",
+    name: "Kids Place Live",
+    tagline: "Interactive children's radio with music, games, and learning",
+    country: "United States",
+    category: "Kids",
+    streamUrl: "https://siriusxm.com/kidsplacelive",
+    streamType: "audio",
+    accentColor: "from-orange-500 to-amber-500"
+  },
+
+  {
     id: "voa-global-english",
     name: "VOA Global English",
     tagline: "International news and public affairs",
